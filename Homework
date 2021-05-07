@@ -1,0 +1,12 @@
+#WAP to accept a number and print first 5 multiples 
+a=int(input ("Enter the no-"))
+print ("The first five multiples are-")
+for i in range(1,6):
+                 print(a*i)
+
+#WAP to find a number is odd or even
+a=int(input("Enter the Number "))
+if a%2==0:
+    print("Even number")
+else:
+    print("Odd number")
